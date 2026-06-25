@@ -2,6 +2,13 @@
 
 This repository contains scripts to generate synthetic datasets that support Brighthive demos and storytelling for various use cases. The generated data is designed to be realistic and representative of real-world scenarios while maintaining privacy and security.
 
+> **Note:** the legacy 22 generators in `scripts/` are kept for one-off CSV demos. The strategic direction is the **spec-driven canonical pipeline** that doubles as the BrightHive multi-agent capability dashboard (currently a POC). See:
+> - Architecture: `agentic-project-mgmt/docs/pocs/synth-warehouse/CAPABILITY_MAP.md`
+> - Flows + contracts: `agentic-project-mgmt/docs/pocs/synth-warehouse/FLOWS.md`
+> - Decision record: `agentic-project-mgmt/docs/pocs/synth-warehouse/ADR.md`
+>
+> Canonical pipeline lands in `canonical/{spec,pipeline,packs}/`. The legacy scripts stay untouched.
+
 ## Purpose
 
 The mock data generator serves several key purposes:
